@@ -10,6 +10,7 @@ import Foundation
 
 struct NetworkServiceFactory {
     
+    // for future
     enum NetworkServiceType {
         case restful
         case graphGL
