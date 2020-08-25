@@ -13,6 +13,9 @@
 		9BD412E224F55F0900C312D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD412E124F55F0900C312D4 /* Assets.xcassets */; };
 		9BD412E524F55F0900C312D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD412E324F55F0900C312D4 /* LaunchScreen.storyboard */; };
 		9BD412EF24F55FCA00C312D4 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD412EE24F55FCA00C312D4 /* Protocols.swift */; };
+		9BD412F124F560C500C312D4 /* RPComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD412F024F560C500C312D4 /* RPComment.swift */; };
+		9BD412F324F5610700C312D4 /* NetworkServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD412F224F5610700C312D4 /* NetworkServiceFactory.swift */; };
+		9BD412F524F5666600C312D4 /* ExampleUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD412F424F5666600C312D4 /* ExampleUsage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9BD412E424F55F0900C312D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BD412E624F55F0900C312D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD412EE24F55FCA00C312D4 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		9BD412F024F560C500C312D4 /* RPComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPComment.swift; sourceTree = "<group>"; };
+		9BD412F224F5610700C312D4 /* NetworkServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceFactory.swift; sourceTree = "<group>"; };
+		9BD412F424F5666600C312D4 /* ExampleUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUsage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				9BD412EE24F55FCA00C312D4 /* Protocols.swift */,
+				9BD412F024F560C500C312D4 /* RPComment.swift */,
+				9BD412F224F5610700C312D4 /* NetworkServiceFactory.swift */,
+				9BD412F424F5666600C312D4 /* ExampleUsage.swift */,
 			);
 			path = MyDesign;
 			sourceTree = "<group>";
@@ -148,7 +157,10 @@
 			files = (
 				9BD412EF24F55FCA00C312D4 /* Protocols.swift in Sources */,
 				9BD412DD24F55F0800C312D4 /* ViewController.swift in Sources */,
+				9BD412F524F5666600C312D4 /* ExampleUsage.swift in Sources */,
+				9BD412F324F5610700C312D4 /* NetworkServiceFactory.swift in Sources */,
 				9BD412DB24F55F0800C312D4 /* AppDelegate.swift in Sources */,
+				9BD412F124F560C500C312D4 /* RPComment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B3L9Z83YP6;
 				INFOPLIST_FILE = RobotsPencils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B3L9Z83YP6;
 				INFOPLIST_FILE = RobotsPencils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

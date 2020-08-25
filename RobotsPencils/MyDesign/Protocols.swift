@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol DataType: Codable {
+protocol DataType: Encodable {
     
     // any data type conforming to this 'empty' protocol
     // will be saved using 'NetWorkService'
